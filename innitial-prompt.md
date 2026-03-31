@@ -1,0 +1,9 @@
+Necesidad o problema:
+# Contexto
+Queremos contruir nuestra tarea de universidad. el juego llamado "La hormiga borracha"
+Especificación de Casos de Uso: Simulador de Hormiga BorrachaSistema: Simulador de Movimiento Aleatorio (Hormiga Borracha)Actor Principal: Usuario (Programador/Analista)CU-01: Configurar Escenario de SimulaciónActor: UsuarioPropósito: Definir los parámetros iniciales de la simulación.Flujo Básico:El usuario establece el tamaño de la cuadrícula (\(N \times M\)).El usuario define la posición inicial de la hormiga \((x, y)\).El usuario define el número máximo de pasos.El sistema valida los parámetros y crea la cuadrícula.Precondiciones: El sistema debe estar iniciado.Postcondiciones: La cuadrícula queda configurada y la hormiga ubicada.CU-02: Ejecutar Movimiento AleatorioActor: UsuarioPropósito: Iniciar la simulación del movimiento de la hormiga.Flujo Básico:El usuario solicita "Iniciar Movimiento".El sistema genera un número aleatorio para decidir la dirección (Norte, Sur, Este, Oeste).El sistema calcula la nueva posición.El sistema actualiza la posición de la hormiga en la cuadrícula.El sistema registra el movimiento realizado.Extensión (Límite): Si la hormiga llega al borde y no puede moverse, el sistema registra un intento fallido y mantiene la posición.CU-03: Visualizar TrayectoriaActor: UsuarioPropósito: Mostrar gráficamente o en texto el camino recorrido.Flujo Básico:El usuario solicita "Mostrar Mapa".El sistema representa la cuadrícula, marcando la posición actual de la hormiga.El sistema muestra el total de pasos dados y los pasos restantes.CU-04: Finalizar SimulaciónActor: Sistema / UsuarioPropósito: Detener la ejecución al cumplir las condiciones.Flujo Básico:El sistema verifica si se alcanzó el máximo de pasos.El sistema detiene el movimiento.El sistema muestra un resumen final (posiciones visitadas).
+
+# Arquitectura
+generame la estructura de proyecto NestJS 
+deployado en vercel
+
